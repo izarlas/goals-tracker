@@ -1,3 +1,4 @@
+import GoalColumns from "../components/GoalColumns";
 import GoalItem from "../components/GoalItem";
 import { GoalState } from "../enums/GoalState";
 import type { Goal } from "../types/Goal";
@@ -16,6 +17,7 @@ const GoalsGrid = () => {
 
   return (
     <div className="flex flex-col">
+      <GoalColumns />
       {mockGoals.map((goal) => (
         <GoalItem goal={goal} />
       ))}
