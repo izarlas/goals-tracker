@@ -12,6 +12,28 @@ This app aims to offer a very quick way to create and keep track of personal goa
 
 ### Getting Started
 
+#### Client
+
+- Access the client directory
+
+```bash
+cd client
+```
+
+- Install the node dependencies
+
+```bash
+npm install
+```
+
+- Run the frontend
+
+```bash
+npm run dev
+```
+
+- Access the frontend at `localhost:5173`
+
 ### API Endpoints
 
 ### Testing
